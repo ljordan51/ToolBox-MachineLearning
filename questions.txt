@@ -1,0 +1,5 @@
+1. The curve is generally linear with a slope of about .033. Therefore it can be assumed that accuracy increases with the amount of training data.
+2. The data is noisier for smaller amounts of training data. This is probably due to the fact that with small amounts of data there
+   is a high amount of chance associated with the accuracy of the model.
+3. Even all the way up to 200 the curve isn't very smooth. There isn't significant improvement after somewhere around 40 trials.
+4. Basically, the bigger C is the slower the program seems to run but the more accurate it gets.
